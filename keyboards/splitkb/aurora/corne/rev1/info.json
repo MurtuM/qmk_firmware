@@ -70,7 +70,8 @@
     "diode_direction": "COL2ROW",
     "matrix_pins": {
         "rows": ["D7", "E6", "B4", "B5"],
-        "cols": ["B2", "B6", "B3", "B1", "F7", "F6"]
+        "cols": ["B2", "B6", "F5", "B1", "F7", "F6"] // reroute COL2 from pin B3 to F5 (hack for faulty mcu)
+        // "cols": ["B2", "B6", "B3", "B1", "F7", "F6"] <-- original, 
     },
     "encoder": {
         "enabled": true,
